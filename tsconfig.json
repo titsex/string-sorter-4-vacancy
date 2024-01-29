@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "strict": true,
+        "noUnusedLocals": true,
+        "noFallthroughCasesInSwitch": true,
+        "forceConsistentCasingInFileNames": true,
+        "incremental": true,
+        "outDir": "./build",
+        "paths": {
+            "@class/*": ["./src/classes/*"]
+        }
+    },
+    "include": ["./src/**/*"]
+}
